@@ -336,7 +336,10 @@ form textarea {
 }
 
 /* .............................for mobile screen.............................. */
-nav .fa-solid {
+nav .fa-solid{
+    display: none;
+}
+nav .fa-regular {
     display: none;
 }
 
@@ -410,7 +413,9 @@ nav .fa-solid {
         display: block;
         z-index: 1;
     }
-
+    nav .fa-regular {
+        display: block;
+    }
     nav ul {
         position: fixed;
         top: 0px;

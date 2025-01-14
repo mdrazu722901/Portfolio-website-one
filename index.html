@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">Protfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Web Designer</h1>
+                <h2>Hi, I'm <span>Md Razu</span> Form Bangladesh</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/personal-image.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="Sub-title">About Me</h1>
+                    <p class="Sub-title-underText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam
+                        sequi possimus magni
+                        voluptates. Veniam aut illum commodi repudiandae cupiditate est nihil laborum, dolores
+                        ratione
+                        deleniti ex, accusantium dolore hic atque.</p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="openTab('Skills')">Skills</p>
+                        <p class="tab-link" onclick="openTab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="openTab('Educations')">Educations</p>
+                    </div>
+                    <div class="tab-link-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing Web Applications</li>
+                            <li><span>Web Developments</span><br>Web Developments With Javascript</li>
+                            <li><span>Web Design</span><br>Web design with Tailwind Css</li>
+                        </ul>
+                    </div>
+                    <div class="tab-link-contents " id="Experience">
+                        <ul>
+                            <li><span>2025</span><br>Web Designer</li>
+                            <li><span>Learning</span><br>Learning Javascript</li>
+                            <li><span>React</span><br>Explor React FrameWork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-link-contents" id="Educations">
+                        <ul>
+                            <li><span>2023</span><br>Passed Diplama In Engineering Course</li>
+                            <li><span>Computer Depertments</span><br>Intern Computer Networking</li>
+                            <li><span>Web Design</span><br>Web design with Tailwind Css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services-section">
+            <div class="container">
+                <div class="row">
+                    <h1 id="Sub-title">services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h1>Web Designer</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est at voluptates qui
+                                voluptatibus
+                            </p>
+                            <a href="#">Lear More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-web-awesome"></i>
+                            <h1>Web Designer</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est at voluptates qui
+                                voluptatibus
+                            </p>
+                            <a href="#">Lear More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h1>Web Designer</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est at voluptates qui
+                                voluptatibus
+                            </p>
+                            <a href="#">Lear More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <div class="container">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/work1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Midea</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequatur.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/work2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Midea</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequatur.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/work3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Midea</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequatur.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn"><a href="#">See More</a></button>
+            </div>
+        </div>
+        <div id="contace">
+            <div class="container">
+                <div class="row">
+                    <div class="contect-left">
+                        <h1>contect me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>mdrajuhossen722901@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>01745197309</p>
+                        <div class="social-icon">
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <!-- <button class="btn btn2">Download CV</button> -->
+                        <a href="image/personal-image.jpg" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contect-right">
+                        <form>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="text" id="Email" placeholder="Your Email" required>
+                            <textarea name="" rows="6" id="textarea" placeholder="Your Message"></textarea>
+                            <button id="submit" class="btn btn2 responsivebtn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copy right <i class="fa-solid fa-heart"></i> MD.Razu</p>
+            </div>
+        </div>
+        <script>
+            let links = document.getElementsByClassName("tab-link");
+            let tabLinks = document.getElementsByClassName("tab-link-contents");
+
+            function openTab(ClickTab) {
+                for (const link of links) {
+                    link.classList.remove("active-link")
+                }
+                for (const tabLink of tabLinks) {
+                    tabLink.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                let to = document.getElementById(ClickTab);
+                to.classList.add("active-tab");
+                console.log(to);
+            }
+            const sidemenu = document.getElementById("sidemenu");
+            function openMenu() {
+                sidemenu.style.right = "0px";
+                // console.log("click me")
+            
+            }
+            function closeMenu() {
+                sidemenu.style.right = "-200px";
+                // console.log("close menu")
+            }
+
+        </script>
+</body>
+
+</html>
